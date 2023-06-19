@@ -22,8 +22,8 @@ public enum Element {
         return labelEs;
     }
 
-    public final String getLabel(){
-        return Context.tenant.equals("fr")?labelFr:labelEs;
+    public final String getLabel() {
+        return Context.tenant.equals("fr") ? labelFr : labelEs;
 
     }
 }
