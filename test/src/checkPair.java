@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class checkPair {
+public class    checkPair {
     public static void main(String args[]){
         System.out.println(check("((()[]))()[]"));
 

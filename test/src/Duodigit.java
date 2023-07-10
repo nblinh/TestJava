@@ -3,12 +3,11 @@ import java.util.Set;
 
 public class Duodigit {
     public static void main(String args[]) {
-        System.out.println(isDuodigit(-333333));
+        System.out.println(isDuodigit(Math.abs(-3333343)));
 
     }
 
     public static String isDuodigit(int number) {
-        int num = Math.abs(number);
         String str = Integer.toString(number);
         Set<Character> characterSet = new HashSet<>();
         for (int i = 0; i < str.length(); i++) {

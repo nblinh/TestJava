@@ -18,13 +18,6 @@ public enum Element {
 
     }
 
-    public final String getLabelEs() {
-        return labelEs;
-    }
 
-    public final String getLabel() {
-        return Context.tenant.equals("fr") ? labelFr : labelEs;
-
-    }
 }
 
