@@ -6,10 +6,16 @@ import java.util.Map;
 
 public class Test {
     public static void main(String args[]){
-        HashSet s = new HashSet();
-        s.add(new Integer(1));
-        s.add(new Integer(1));
+        int[] bookset = {2, 2, 2, 1, 1};
 
-        System.out.println(s.size());
+
+
+        System.out.println(bookset);
+    }
+
+    public static int getNumberOf2BookDifferent(int[] bookset){
+        int num =0;
+        
+        return num;
     }
 }

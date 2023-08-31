@@ -1,8 +1,14 @@
 package testEnum;
 
+import java.math.BigInteger;
+import java.util.function.Consumer;
+
+
 public class Context {
     public static void main(String args[]){
         System.out.println(Planet.MERCURY.equals(Planet.MERCURY));
-        System.out.println(Planet.MERCURY==Planet.VENUS);
+        BigInteger bi = new BigInteger("1");
+        BigInteger bi2 = bi.add(new BigInteger("1"));
+        System.out.println(bi2);
     }
 }
