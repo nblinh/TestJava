@@ -5,6 +5,7 @@ public class StringEquals {
         String str="java";
         String str1 = new String("java");
 
+        
         System.out.print(str.equals(str1));
         System.out.print(" ");
         System.out.print(str == str1);
