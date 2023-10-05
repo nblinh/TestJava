@@ -11,6 +11,6 @@ public class StringEquals {
         System.out.print(str == str1);
         System.out.print(" ");
         System.out.print(str.compareTo(str1));
-        
+        //test comment
     }
 }
