@@ -2,7 +2,6 @@ public class AVTransalate {
 
     public static String translate(String text) {
         // Write your code here
-        // To debug: System.err.println("Debug messages...");
         StringBuilder str = new StringBuilder();
 
         for(int i=0;i<text.length();i++){
