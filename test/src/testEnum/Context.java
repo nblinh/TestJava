@@ -10,5 +10,6 @@ public class Context {
         BigInteger bi = new BigInteger("1");
         BigInteger bi2 = bi.add(new BigInteger("1"));
         System.out.println(bi2);
+        Maths maths = (a) -> Math.sqrt(a*100);
     }
 }

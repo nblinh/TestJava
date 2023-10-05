@@ -11,7 +11,7 @@ public class Pi {
     static double approx(double[][] pts){
         int totalInside = 0;
         for(int i=0;i< pts.length;i++){
-            if(pts[i][0]*pts[i][0]+pts[i][1]*pts[i][1]<1){
+            if(pts[i][0]*pts[i][0]+pts[i][1]*pts[i][1]<=1){
                 totalInside++;
             }
         }
