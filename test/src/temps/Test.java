@@ -12,7 +12,5 @@ public class Test {
         C c = new C();
         //b = c;
         BigDecimal total = new BigDecimal(0);
-
     }
-
 }
