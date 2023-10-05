@@ -19,6 +19,8 @@ public class TestStream {
         //weathers.stream().sorted(Weather::getTemperature).forEach(System.out::println);
         weathers.stream().sorted((p1, p2)->p1.getTemperature().compareTo(p2.getTemperature())).forEach(System.out::println);
         //weathers.stream().map(Weather::getTemperature).sorted((p1, p2)->p1.compareTo(p2)).forEach(System.out::println);
+
+
     }
 
 
