@@ -37,7 +37,6 @@ public class ComputeDayGains {
             }
         }
         return payedGuest.values().stream().reduce(0, Integer::sum);
-
     }
 
     public static int computeDayGains2(int nbSeats, int[] payingGuests, int[] guestMovements) {
